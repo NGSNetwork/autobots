@@ -2,18 +2,33 @@ extends layout
 
 block header
     header
-        .navbar-fixed
-            nav.top-nav.green.z-depth-2
-                .container.nav-wrapper
-                    a.button-collapse.hide-on-large-only(href='#', data-activates='nav-mobile')
-                        i.material-icons menu
-                    a#logo-container.brand-logo(href='/')
-                        img#front-page-logo.responsive-img(src='/images/logo.png' alt="Neogenesis Network Logo")
-                    ul.right.hide-on-med-and-down
-                        li: a(href='/auth/steam') Login
+    nav.green
+      .nav-wrapper
+        a.brand-logo(href='#!')
+         img#front-page-logo.responsive-img(src='/images/logo.png' alt="Neogenesis Network Logo")
+        a.button-collapse(href='#', data-activates='mobile-demo')
+          i.material-icons menu
+        ul.right.hide-on-med-and-down
+          li
+            a.waves-effect.waves-teal(href='/auth/steam') Login
+
+        ul#mobile-demo.side-nav
+          li
+            a.waves-effect.waves-teal(href='/auth/steam') Login
+
+
+        //-.navbar-fixed
+        //-    nav.top-nav.green.z-depth-2
+        //-        .container.nav-wrapper
+        //-            a.button-collapse.hide-on-large-only(href='#', data-activates='nav-mobile')
+        //-                i.material-icons menu
+        //-            a#logo-container.brand-logo(href='/')
+        //-                img#front-page-logo.responsive-img(src='/images/logo.png' alt="Neogenesis Network Logo")
+        //-            ul.right.hide-on-med-and-down
+        //-                li: a(href='/auth/steam') Login
         //- ul#nav-mobile.side-nav.fixed
         //-     .logo.center
-                
+
         //-     li.bold
         //-         a.waves-effect.waves-teal(href='/auth/steam') Login
         //-     li.bold
@@ -39,7 +54,7 @@ block content
                 We are NGS. We are a rag-tag bunch of hooligans who have attempted to do something that isn't commonly heard of. How many times have you heard that a potentially valuable piece of software is not only free, but open for anyone to change, utilize, and extend as they see fit?
             h3 Pricing
             p.flow-text
-                | FREE, FREE, FREE! This does mean that demand will be very high. While I can't promise we will be free forever, I also don't see why we should keep our code propriatary. 
+                | FREE, FREE, FREE! This does mean that demand will be very high. While I can't promise we will be free forever, I also don't see why we should keep our code propriatary.
                 a(href="https://unlicense.org/") Unlicense License baby!
             h3#getting-started Getting Started
             p.flow-text.
