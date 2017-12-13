@@ -7,6 +7,7 @@ install:
     - cd config/
     - \cp website-example.json website.json 
     - cd ../
+    - npm install
    
 env:
     - NODE_ENV=TEST
