@@ -1,46 +1,40 @@
 extends layout
 
 block header
-    header
+  header
     nav.green
       .nav-wrapper
         a.brand-logo(href='#!')
          img#front-page-logo.responsive-img(src='/images/logo.png' alt="Neogenesis Network Logo")
-        a.button-collapse(href='#', data-activates='mobile-demo')
+        a.button-collapse(data-activates='mobile-demo', href='#')
           i.material-icons menu
         ul.right.hide-on-med-and-down
           li
             a.waves-effect.waves-teal(href='/auth/steam') Login
+          li
+            a.waves-effect.waves-teal(href='#about') About
+          li
+            a.waves-effect.waves-teal(href='#getting-started') Getting Started
+          li
+             a.waves-effect.waves-teal(href='https://www.neogenesisnetwork.net/forums/forumdisplay.php?fid=6' target="_blank") Suggest
+          li
+            a.waves-effect.waves-teal(href='https://www.neogenesisnetwork.net/forums/showthread.php?tid=4/' target="_blank") Help Out
+          li
+            a.waves-effect.waves-teal(href='https://www.neogenesisnetwork.net/donate' target="_blank") Donate
 
         ul#mobile-demo.side-nav
           li
             a.waves-effect.waves-teal(href='/auth/steam') Login
-
-
-        //-.navbar-fixed
-        //-    nav.top-nav.green.z-depth-2
-        //-        .container.nav-wrapper
-        //-            a.button-collapse.hide-on-large-only(href='#', data-activates='nav-mobile')
-        //-                i.material-icons menu
-        //-            a#logo-container.brand-logo(href='/')
-        //-                img#front-page-logo.responsive-img(src='/images/logo.png' alt="Neogenesis Network Logo")
-        //-            ul.right.hide-on-med-and-down
-        //-                li: a(href='/auth/steam') Login
-        //- ul#nav-mobile.side-nav.fixed
-        //-     .logo.center
-
-        //-     li.bold
-        //-         a.waves-effect.waves-teal(href='/auth/steam') Login
-        //-     li.bold
-        //-         a.waves-effect.waves-teal(href='#about') About
-        //-     li.bold
-        //-         a.waves-effect.waves-teal(href='#getting-started') Getting Started
-        //-     li.bold
-        //-         a.waves-effect.waves-teal(target="_blank" href='https://www.neogenesisnetwork.net/forums/forumdisplay.php?fid=6') Suggest
-        //-     li.bold
-        //-         a.waves-effect.waves-teal(target="_blank" href='https://www.neogenesisnetwork.net/forums/showthread.php?tid=4/') Help Out
-        //-     li.bold
-        //-         a.waves-effect.waves-teal(target="_blank" href='https://www.neogenesisnetwork.net/donate') Donate
+          li
+            a.waves-effect.waves-teal(href='#about') About
+          li
+            a.waves-effect.waves-teal(href='#getting-started') Getting Started
+          li
+            a.waves-effect.waves-teal(href='https://www.neogenesisnetwork.net/forums/forumdisplay.php?fid=6' target="_blank") Suggest
+          li
+            a.waves-effect.waves-teal(href='https://www.neogenesisnetwork.net/forums/showthread.php?tid=4/' target="_blank") Help Out
+          li
+            a.waves-effect.waves-teal(href='https://www.neogenesisnetwork.net/donate' target="_blank") Donate
 
 
 block content
