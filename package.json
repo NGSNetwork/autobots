@@ -4,21 +4,22 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-	"test": "node ./bin/www"
+    "test": "jslint **/*.js"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
-    "connect-mongo": "^2.0.0",
+    "connect-mongo": "^2.0.1",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "express-session": "^1.15.5",
+    "debug": "^2.6.9",
+    "express": "^4.15.5",
+    "express-session": "^1.15.6",
+    "jslint-node": "^1.2.4",
     "morgan": "~1.8.1",
     "passport": "^0.4.0",
-    "passport-steam": "^1.0.8",
+    "passport-steam": "^1.0.9",
     "passport.socketio": "^3.7.0",
-    "pug": "^2.0.0-rc.4",
-    "serve-favicon": "^2.4.4",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0",
     "stylus": "0.54.5"
   }
 }
