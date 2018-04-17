@@ -2,11 +2,10 @@
   "boss":      true,
   "node":      true,
   "eqeqeq":    true,
-  "strict":    "implied",
   "newcap":    false,
   "undef":     true,
   "unused":    true,
   "onecase":   true,
-  "lastsemic": true,
-  "futurehostile": true
+  "futurehostile": true,
+  "esversion": 6
 }
