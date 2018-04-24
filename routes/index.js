@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 const session = require('express-session');
 const passport = require('passport');
@@ -7,7 +7,7 @@ const SteamStrategy = require('passport-steam').Strategy;
 const config = require('../config/website.json');
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+router.get('/', function (req, res) {
     res.render('index', {title: 'NGS Network\'s bots!'});
 });
 
