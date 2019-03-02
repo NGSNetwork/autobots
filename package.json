@@ -4,22 +4,26 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "jshint **/*.js"
+    "test": "jshint **/*.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
+    "body-parser": "~1.18.2",
     "connect-mongo": "^2.0.1",
     "cookie-parser": "~1.4.3",
     "debug": "^2.6.9",
-    "express": "^4.15.5",
+    "express": "^4.16.0",
     "express-session": "^1.15.6",
-    "jshint": "^2.9.5",
-    "morgan": "~1.8.1",
+    "jshint": "^2.9.6",
+    "morgan": "~1.9.1",
     "passport": "^0.4.0",
-    "passport-steam": "^1.0.9",
+    "passport-steam": "^1.0.10",
     "passport.socketio": "^3.7.0",
     "pug": "^2.0.3",
     "serve-favicon": "^2.5.0",
-    "stylus": "0.54.5"
-  }
+    "stylus": "0.54.5",
+    "snyk": "^1.135.1"
+  },
+  "snyk": true
 }
