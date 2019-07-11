@@ -13,7 +13,7 @@
     "debug": "^2.6.9",
     "express": "^4.15.5",
     "express-session": "^1.15.6",
-    "jshint": "^2.9.5",
+    "jshint": "^2.9.6",
     "morgan": "~1.8.1",
     "passport": "^0.4.0",
     "passport-steam": "^1.0.9",
