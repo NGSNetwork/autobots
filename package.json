@@ -16,7 +16,7 @@
     "jshint": "^2.9.5",
     "morgan": "~1.8.1",
     "passport": "^0.4.0",
-    "passport-steam": "^1.0.9",
+    "passport-steam": "^1.0.10",
     "passport.socketio": "^3.7.0",
     "pug": "^2.0.3",
     "serve-favicon": "^2.5.0",
