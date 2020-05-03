@@ -1,0 +1,8 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - passport-steam > npm > cli-table2 > lodash:
+        patched: '2019-03-02T18:39:30.713Z'
