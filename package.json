@@ -20,7 +20,7 @@
     "passport": "^0.4.0",
     "passport-steam": "^1.0.10",
     "passport.socketio": "^3.7.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "serve-favicon": "^2.5.0",
     "stylus": "0.54.5",
     "snyk": "^1.317.0"
