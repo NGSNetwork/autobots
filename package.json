@@ -23,7 +23,7 @@
     "pug": "^2.0.3",
     "serve-favicon": "^2.5.0",
     "stylus": "0.54.5",
-    "snyk": "^1.317.0"
+    "snyk": "^1.465.0"
   },
   "snyk": true
 }
